@@ -3,11 +3,11 @@
   <title>XYY&#39;s Blog</title>
   
   
-  <link href="https://wonderdul-me.github.io/project/atom.xml" rel="self"/>
+  <link href="https://wonderdul-me.github.io/atom.xml" rel="self"/>
   
-  <link href="https://wonderdul-me.github.io/project/"/>
+  <link href="https://wonderdul-me.github.io/"/>
   <updated>2022-07-15T03:52:55.864Z</updated>
-  <id>https://wonderdul-me.github.io/project/</id>
+  <id>https://wonderdul-me.github.io/</id>
   
   <author>
     <name>Miracle</name>
@@ -18,8 +18,8 @@
   
   <entry>
     <title>First Attempt</title>
-    <link href="https://wonderdul-me.github.io/project/2022/07/15/First-Attempt/"/>
-    <id>https://wonderdul-me.github.io/project/2022/07/15/First-Attempt/</id>
+    <link href="https://wonderdul-me.github.io/2022/07/15/First-Attempt/"/>
+    <id>https://wonderdul-me.github.io/2022/07/15/First-Attempt/</id>
     <published>2022-07-15T03:51:40.000Z</published>
     <updated>2022-07-15T03:52:55.864Z</updated>
     
@@ -38,8 +38,8 @@
   
   <entry>
     <title>Hello World</title>
-    <link href="https://wonderdul-me.github.io/project/2022/07/15/hello-world/"/>
-    <id>https://wonderdul-me.github.io/project/2022/07/15/hello-world/</id>
+    <link href="https://wonderdul-me.github.io/2022/07/15/hello-world/"/>
+    <id>https://wonderdul-me.github.io/2022/07/15/hello-world/</id>
     <published>2022-07-15T03:41:42.718Z</published>
     <updated>2022-07-15T06:24:34.870Z</updated>
     
