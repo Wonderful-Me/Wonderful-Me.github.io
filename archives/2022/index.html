@@ -382,5 +382,80 @@ window.jQuery || document.write('<script src="js/jquery.min.js"><\/script>')
 
 
 
+  
+    <style>
+      .copy-btn {
+        display: inline-block;
+        padding: 12px 12px;
+        font-size: 13px;
+        font-weight: 700;
+        line-height: 18px;
+        color: rgb(155, 155, 155);
+        white-space: nowrap;
+        vertical-align: middle;
+        cursor: pointer;
+        background-color: #eee;
+        background-image: linear-gradient(#fcfcfc, #eee);
+        border: 1px solid #d5d5d5;
+        border-radius: 3px;
+        user-select: none;
+        outline: 0;
+      }
+  
+      .highlight-wrap .copy-btn {
+        transition: opacity .3s ease-in-out;
+        opacity: 0;
+        padding: 2px 6px;
+        position: absolute;
+        right: 8px;
+        top: 4px;
+        z-index: 2;
+      }
+  
+      .highlight-wrap:hover .copy-btn,
+          .highlight-wrap .copy-btn:focus {
+        opacity: 1
+      }
+  
+      .highlight-wrap {
+        position: relative;
+      }
+    </style>
+    
+    <script>
+      addLoadEvent(()=>{
+        $('.highlight').each(function (i, e) {
+          var $wrap = $('<div>').addClass('highlight-wrap')
+          $(e).after($wrap)
+          $wrap.append($('<button>').addClass('copy-btn').append('copy').on('click', function (e) {
+            var code = $(this).parent().find(".code")[0].innerText
+            
+                code += "\n/**\n* 本博客所有文章除特别声明外，均采用&#34;CC-BY-4.0-CN&#34;许可协议。转载请注明出处！\n* Miracle @ https://wonderful-me.github.io/\n*/"
+            
+            var ta = document.createElement('textarea')
+            document.body.appendChild(ta)
+            ta.style.position = 'absolute'
+            ta.style.top = '0px'
+            ta.style.left = '0px'
+            ta.value = code
+            ta.select()
+            ta.focus()
+            var result = document.execCommand('copy')
+            document.body.removeChild(ta)
+            
+              if(result)$(this).text('copied')
+              else $(this).text('failed')
+            
+            $(this).blur()
+          })).on('mouseleave', function (e) {
+            var $b = $(this).find('.copy-btn')
+            setTimeout(function () {
+              $b.text('copy')
+            }, 300)
+          }).append(e)
+        })
+      })
+    </script>
+  
 <script src="/live2dw/lib/L2Dwidget.min.js?094cbace49a39548bed64abff5988b05"></script><script>L2Dwidget.init({"pluginRootPath":"live2dw/","pluginJsPath":"lib/","pluginModelPath":"assets/","tagMode":false,"debug":false,"model":{"jsonPath":"/live2dw/assets/assets/haruto.model.json"},"display":{"position":"right","width":250,"height":437.5,"hOffset":40},"mobile":{"show":false},"log":false});</script></body>
 </html>
