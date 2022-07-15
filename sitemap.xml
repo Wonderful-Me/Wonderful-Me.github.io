@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>https://wonderdul-me.github.io/project/2022/07/15/hello-world/</loc>
+    <loc>https://wonderful-me.github.io/2022/07/15/hello-world/</loc>
     
     <lastmod>2022-07-15</lastmod>
     
@@ -11,7 +11,7 @@
   </url>
   
   <url>
-    <loc>https://wonderdul-me.github.io/project/2022/07/15/First-Attempt/</loc>
+    <loc>https://wonderful-me.github.io/2022/07/15/First-Attempt/</loc>
     
     <lastmod>2022-07-15</lastmod>
     
@@ -21,7 +21,7 @@
   
 
   <url>
-    <loc>https://wonderdul-me.github.io/project</loc>
+    <loc>https://wonderful-me.github.io/</loc>
     <lastmod>2022-07-15</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
