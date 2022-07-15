@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <title>Hexo</title>
+  <title>XYY&#39;s Blog</title>
   
   
-  <link href="http://example.com/atom.xml" rel="self"/>
+  <link href="https://wonderdul-me.github.io/project/atom.xml" rel="self"/>
   
-  <link href="http://example.com/"/>
+  <link href="https://wonderdul-me.github.io/project/"/>
   <updated>2022-07-15T03:52:55.864Z</updated>
-  <id>http://example.com/</id>
+  <id>https://wonderdul-me.github.io/project/</id>
   
   <author>
-    <name>John Doe</name>
+    <name>Miracle</name>
     
   </author>
   
@@ -18,8 +18,8 @@
   
   <entry>
     <title>First Attempt</title>
-    <link href="http://example.com/2022/07/15/First-Attempt/"/>
-    <id>http://example.com/2022/07/15/First-Attempt/</id>
+    <link href="https://wonderdul-me.github.io/project/2022/07/15/First-Attempt/"/>
+    <id>https://wonderdul-me.github.io/project/2022/07/15/First-Attempt/</id>
     <published>2022-07-15T03:51:40.000Z</published>
     <updated>2022-07-15T03:52:55.864Z</updated>
     
@@ -38,8 +38,8 @@
   
   <entry>
     <title>Hello World</title>
-    <link href="http://example.com/2022/07/15/hello-world/"/>
-    <id>http://example.com/2022/07/15/hello-world/</id>
+    <link href="https://wonderdul-me.github.io/project/2022/07/15/hello-world/"/>
+    <id>https://wonderdul-me.github.io/project/2022/07/15/hello-world/</id>
     <published>2022-07-15T03:41:42.718Z</published>
     <updated>2022-07-15T06:24:34.870Z</updated>
     
